@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sviluppatore web freelance. Siti e applicazioni su misura con HTML, CSS, JavaScript e React.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="canonical" href="https://andredev.github.io/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>AndreDeveloper</title>
+</head>
+<body>
+
+    <div class="grid-overlay" aria-hidden="true"></div>
+
+    <header class="site-header">
+        <div class="wrap header-inner">
+            <a href="#top" class="mark">AndreDev<span class="mark-dot">.</span></a>
+            
+            <nav class="main-nav" id="main-nav">
+                <a href="#chi-sono">Chi sono</a>
+                <a href="#progetti">Progetti</a>
+                <a href="#servizi">Servizi</a>
+                <a href="#contact">Contatti</a>
+            </nav>
+
+            <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Apri il menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main id="top">
+        
+        <section class="hero wrap">
+            <h1 class="hero-title">Costruisco siti e applicazioni <br>web su misura.</h1>
+            <p class="hero-sub">AndreDev, sviluppatore web di <span id="eta"></span> anni. Trasformo idee e esigenze in prodotti digitali concreti — dal sito vetrina all'applicazione su misura, scritti a mano e pensati per durare.</p>
+            
+            <div class="hero-action">
+                <a href="#progetti" class="btn btn-primary">Vedi i miei progetti</a>
+                <a href="#contatti" class="btn btn-ghost">Scrivimi</a>
+            </div>
+        </section>
+
+        <section id="chi-sono" class="section wrao">
+            <div class="section-head">
+                <span class="section-index">01</span>
+                <h2>Chi sono</h2>
+            </div>
+
+            <div class="about-grid">
+                <p class="about-text">
+                    Diplomato in informatica e telecomunicazioni nel 2022 e da allora continuo a costruire cose per il web. Mi interessa il lato pratico dello sviluppo: capire cosa serve davvero a un progetto e scrivere codice pulito per farlo funzionare, senza fronzoli inutili.
+                </p>
+
+                <ul class="stack-list" aria-label="Tecnologie">
+                    <li><span class="corner"></span>HTML</li>
+                    <li><span class="corner"></span>CSS</li>
+                    <li><span class="corner"></span>JavaScript</li>
+                    <li><span class="corner"></span>React</li>
+                    <li><span class="corner"></span>PHP</li>
+                    <li><span class="corner"></span>Python</li>
+                    <li><span class="corner"></span>Java</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="progetti" class="section wrap">
+            <div class="section-head">
+                <span class="section-index">02</span>
+                <h2>Progetti</h2>
+            </div>
+            <div class="project-list">
+
+                <article class="project-card">
+                    <div class="corner corner-tl"></div><div class="corner corner-tr"></div>
+                    <div class="corner corner-bl"></div><div class="corner corner-br"></div>
+                    <div class="project-body">
+                        <h3>Geometra Giordano</h3>
+                        <p>Sito vetrina per lo Studio Geometra Giordano Luigi, professionista attivo ad Anzio, Roma e Latina dal 1991. Presenta i servizi offerti (catasto, edilizia, risparmio energetico, sicurezza, stime immobiliari), la sede sulla mappa e un form per le richieste di contatto</p>
+                        <ul class="tag-list">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Contatti/FORM</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://studiogeometragiordano.github.io/Geometra-Giordano-Luigi/" target="_blank">Vedi progetto</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="servizi" class="section wrap">
+            <div class="section-head">
+                <span class="section-index">03</span>
+                <h2>Servizi</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-item">
+                    <h3>Siti vetrina</h3>
+                    <p>Il biglietto da visita online della tua attività: chiaro, veloce e ottimizzato per chi ti cerca dal telefono. Include struttura su misura, sezione contatti e ottimizzazione base per Google.</p>
+                    <p class="service-prezzi"><a href="mailto:andre.dev@outlook.it?subject=Richiesta preventivo SITO VETRINA">A partire da 200€ — Richiedi un preventivo →</a></p>
+                </div>
+                <div class="service-item">
+                    <h3>Portfolio</h3>
+                    <p>Il posto giusto per mostrare quello che sai fare, con ordine e senza distrazioni: progetti, immagini, link diretti ai lavori. Perfetto se sei un libero professionista o un creativo che vuole farsi trovare online.</p>
+                    <p class="service-prezzi"><a href="mailto:andre.dev@outlook.it?subject=Richiesta preventivo PORTFOLIO">A partire da 150€ — Richiedi un preventivo →</a></p>
+                </div>
+                <div class="service-item">
+                    <h3>Applicazioni web su misura</h3>
+                    <p>Quando serve qualcosa in più di un sito statico: form avanzati, aree riservate, piccoli gestionali o integrazioni su misura per il tuo flusso di lavoro.</p>
+                    <p class="service-prezzi"><a href="mailto:andre.dev@outlook.it?subject=Richiesta preventivo APPLICAZIONE WEB">Prezzo su preventivo, in base alle funzionalità richieste — Parliamone →</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section wrap contact-section">
+            <div class="section-head">
+                <span class="section-index">04</span>
+                <h2>Contatti</h2>
+            </div>
+            <p class="contact-lead">Hai un progetto in mente o vuoi solo chiedere qualcosa? <br> Scrivimi, rispondo il prima possibile.
+            </p>
+
+            <div class="contact-grid">
+                <a href="mailto:andre.dev@outlook.it" class="contact-link" target="_blank" link="noopener">Email</a>
+                <a href="" class="contact-link" target="_blank" rel="noopener">instagram</a>
+            </div>
+        </section>
+
+    </main>
+    
+    <footer class="site-footer wrap">
+        <p>&copy; <span id="year"></span> AndreDev. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
